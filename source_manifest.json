@@ -1,0 +1,495 @@
+{
+  "description": "Source provenance before release adjustments. No weights or training outputs included.",
+  "files": [
+    {
+      "source": "train_detction_um.py",
+      "destination": "train_detction_um.py",
+      "source_sha256": "58696f5ce6af81bdf08abe86e7c2c539b15cae9a18a9b9bb369558e224bf7d9b",
+      "note": "Portable release adjustments; see README.md",
+      "release_sha256": "b2f6d41cd2ec5817b3b336aa863858459fbc2ab579131ed7f3889f3f6369512b",
+      "modified": true
+    },
+    {
+      "source": "load_data.py",
+      "destination": "load_data.py",
+      "source_sha256": "20b5bdae27324ef96dd6b8c42eed3380807c74c00718bf0eeade2db3216df507",
+      "note": "Portable release adjustments; see README.md",
+      "release_sha256": "323e228d3397db15598ef632009e8f34a02158a44ddbfdcc9cff3dbc26d5c6dd",
+      "modified": true
+    },
+    {
+      "source": "get_loss.py",
+      "destination": "get_loss.py",
+      "source_sha256": "a15062610071b122739e5bb26eb8f20e596373199e85b202b029b5b29544972b",
+      "note": "Portable release adjustments; see README.md",
+      "release_sha256": "e7591763adc5dd6c0dba1f6eed726d1ae0217f6f765f07b5f40bf522cefd6041",
+      "modified": true
+    },
+    {
+      "source": "model_complexity.py",
+      "destination": "model_complexity.py",
+      "source_sha256": "abe32b85f169b4e58d0cb33e51c2c820bde3d8bd5d781633b1ae24caea2ab20f",
+      "note": "Portable release adjustments; see README.md",
+      "release_sha256": "abe32b85f169b4e58d0cb33e51c2c820bde3d8bd5d781633b1ae24caea2ab20f",
+      "modified": false
+    },
+    {
+      "source": "evaluation.py",
+      "destination": "evaluation.py",
+      "source_sha256": "770e7b45d5a01095fdd6a4449dcd946194a405dae26508ef6e4229290c25aeba",
+      "note": "Portable release adjustments; see README.md",
+      "release_sha256": "770e7b45d5a01095fdd6a4449dcd946194a405dae26508ef6e4229290c25aeba",
+      "modified": false
+    },
+    {
+      "source": "evaluate_prf1_csv_um.py",
+      "destination": "evaluate_prf1_csv_um.py",
+      "source_sha256": "2a3ef30eafc8d0aeb8f56f5e44054c3a4abf0110d5fa0adf83f14a1aec54aa13",
+      "note": "Portable release adjustments; see README.md",
+      "release_sha256": "518e4c137686cbfe3b0e52cae9989988acd27654afbbe67ca83aa6c2e028ba15",
+      "modified": true
+    },
+    {
+      "source": "PGE_Formulation/z_fiber_analysis/scripts/source_snapshot/feature_extract_net.py",
+      "destination": "feature_extract_net.py",
+      "source_sha256": "9377188e8b9e972dfa741deb24a51f93eb38eb1777f7337e878c6fc1dcc7fa00",
+      "note": "Active definitions preserved; inactive commented alternatives and local path injection removed",
+      "release_sha256": "3c93b42c3cc300db5a8dfca3568da99018c703c5ba38ea2a9cab27db1f262e6e",
+      "modified": true
+    },
+    {
+      "source": "PGE_Formulation/z_fiber_analysis/scripts/source_snapshot/mamba/mamba.py",
+      "destination": "mamba/mamba.py",
+      "source_sha256": "b584be059ca2ef0824260caf313c4ed4bb063fbd4cff0eb8c9b4544907d68c3b",
+      "note": "Active definitions preserved; inactive commented alternatives and local path injection removed",
+      "release_sha256": "b118cec75ada41a035c16f32c97a76299197bb58d950847ddc69d20df202e07e",
+      "modified": true
+    },
+    {
+      "source": "mamba/setup.py",
+      "destination": "mamba/setup.py",
+      "source_sha256": "30b9affb34a1dff4abbb4ba571db5bb4e1bd566d1282385c2fd80222e047e941",
+      "note": "",
+      "release_sha256": "ce441d51bc74171a439cc8f589f0a0bde465da57b41f822ef23d4f3cc014d275",
+      "modified": true
+    },
+    {
+      "source": "mamba/LICENSE",
+      "destination": "mamba/LICENSE",
+      "source_sha256": "760939b000194d04548ede6a857bbe735d1695d8422ec85955c8e2bd7f4b95c5",
+      "note": "",
+      "release_sha256": "760939b000194d04548ede6a857bbe735d1695d8422ec85955c8e2bd7f4b95c5",
+      "modified": false
+    },
+    {
+      "source": "mamba/AUTHORS",
+      "destination": "mamba/AUTHORS",
+      "source_sha256": "e5eb51eba1fdf225e8e99afb87e315c2383d934dd9d61c0681e05617e045d145",
+      "note": "",
+      "release_sha256": "e5eb51eba1fdf225e8e99afb87e315c2383d934dd9d61c0681e05617e045d145",
+      "modified": false
+    },
+    {
+      "source": "mamba/README.md",
+      "destination": "mamba/README.md",
+      "source_sha256": "323ff6f0258ca606c4e20cd2f7371b0b82d1d032d529eec89ce07120c3500ffb",
+      "note": "",
+      "release_sha256": "323ff6f0258ca606c4e20cd2f7371b0b82d1d032d529eec89ce07120c3500ffb",
+      "modified": false
+    },
+    {
+      "source": "mamba/mamba_ssm/__init__.py",
+      "destination": "mamba/mamba_ssm/__init__.py",
+      "source_sha256": "081a74438b5848ded7aa45abac615e1ba6832c2cc722663db73f1fe84a17b1ea",
+      "note": "",
+      "release_sha256": "4285722336f24f40f2b3991fdc8f9c7d86b30f434249e041e84978eda8417d5f",
+      "modified": true
+    },
+    {
+      "source": "mamba/mamba_ssm/models/__init__.py",
+      "destination": "mamba/mamba_ssm/models/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "note": "",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modified": false
+    },
+    {
+      "source": "mamba/mamba_ssm/models/mixer_seq_simple.py",
+      "destination": "mamba/mamba_ssm/models/mixer_seq_simple.py",
+      "source_sha256": "caece31a26d12db0559f65efc0c867d005a27937344f2d93ad7b649be3055ba0",
+      "note": "",
+      "release_sha256": "caece31a26d12db0559f65efc0c867d005a27937344f2d93ad7b649be3055ba0",
+      "modified": false
+    },
+    {
+      "source": "mamba/mamba_ssm/modules/__init__.py",
+      "destination": "mamba/mamba_ssm/modules/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "note": "",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modified": false
+    },
+    {
+      "source": "mamba/mamba_ssm/modules/mamba_simple.py",
+      "destination": "mamba/mamba_ssm/modules/mamba_simple.py",
+      "source_sha256": "ef1f2190d9c7db4e38018a16d33a54bcb0cda5a84cce170a969bf027be823453",
+      "note": "",
+      "release_sha256": "8f9846e645b53d28d71c31cf452b1e41a38c8c296b1491df28492dacd2d71439",
+      "modified": true
+    },
+    {
+      "source": "mamba/mamba_ssm/ops/__init__.py",
+      "destination": "mamba/mamba_ssm/ops/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "note": "",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modified": false
+    },
+    {
+      "source": "mamba/mamba_ssm/ops/selective_scan_interface.py",
+      "destination": "mamba/mamba_ssm/ops/selective_scan_interface.py",
+      "source_sha256": "bf61c44105064063e89c66be5079d3a36697ee202b5dffbfcac2f2ba4909fd68",
+      "note": "",
+      "release_sha256": "bf61c44105064063e89c66be5079d3a36697ee202b5dffbfcac2f2ba4909fd68",
+      "modified": false
+    },
+    {
+      "source": "mamba/mamba_ssm/ops/triton/__init__.py",
+      "destination": "mamba/mamba_ssm/ops/triton/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "note": "",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modified": false
+    },
+    {
+      "source": "mamba/mamba_ssm/ops/triton/layernorm.py",
+      "destination": "mamba/mamba_ssm/ops/triton/layernorm.py",
+      "source_sha256": "e03a0a5ef035fc90e9ffbb07fcb846de47da8b76ee80b4d88487069f6c077671",
+      "note": "",
+      "release_sha256": "e03a0a5ef035fc90e9ffbb07fcb846de47da8b76ee80b4d88487069f6c077671",
+      "modified": false
+    },
+    {
+      "source": "mamba/mamba_ssm/ops/triton/selective_state_update.py",
+      "destination": "mamba/mamba_ssm/ops/triton/selective_state_update.py",
+      "source_sha256": "b29627ec0290007174fe30fdcd8fe039cb1520bff104bd2c2ef57c49ae56b6f3",
+      "note": "",
+      "release_sha256": "b29627ec0290007174fe30fdcd8fe039cb1520bff104bd2c2ef57c49ae56b6f3",
+      "modified": false
+    },
+    {
+      "source": "mamba/mamba_ssm/utils/__init__.py",
+      "destination": "mamba/mamba_ssm/utils/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "note": "",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modified": false
+    },
+    {
+      "source": "mamba/mamba_ssm/utils/generation.py",
+      "destination": "mamba/mamba_ssm/utils/generation.py",
+      "source_sha256": "5edf89e663767112dbba45dfd846b1a8eaa2385104707b7d49a2d97b58d7dd43",
+      "note": "",
+      "release_sha256": "5edf89e663767112dbba45dfd846b1a8eaa2385104707b7d49a2d97b58d7dd43",
+      "modified": false
+    },
+    {
+      "source": "mamba/mamba_ssm/utils/hf.py",
+      "destination": "mamba/mamba_ssm/utils/hf.py",
+      "source_sha256": "aa6f3a349826612bf3b310d209ebe50546bf1b2be9bcee3d5959cabfa7d235f6",
+      "note": "",
+      "release_sha256": "aa6f3a349826612bf3b310d209ebe50546bf1b2be9bcee3d5959cabfa7d235f6",
+      "modified": false
+    },
+    {
+      "source": "mamba/csrc/selective_scan/reverse_scan.cuh",
+      "destination": "mamba/csrc/selective_scan/reverse_scan.cuh",
+      "source_sha256": "a257f066e80ba1c852b97416bf8ebf69b9f4d0d99c66110ea2cc8add7ba9170c",
+      "note": "",
+      "release_sha256": "a257f066e80ba1c852b97416bf8ebf69b9f4d0d99c66110ea2cc8add7ba9170c",
+      "modified": false
+    },
+    {
+      "source": "mamba/csrc/selective_scan/selective_scan.cpp",
+      "destination": "mamba/csrc/selective_scan/selective_scan.cpp",
+      "source_sha256": "2319b19dd52da0c6eb9ab6ab06059de2248044ea1f1c3c688e45576fdef0fb79",
+      "note": "",
+      "release_sha256": "2319b19dd52da0c6eb9ab6ab06059de2248044ea1f1c3c688e45576fdef0fb79",
+      "modified": false
+    },
+    {
+      "source": "mamba/csrc/selective_scan/selective_scan.h",
+      "destination": "mamba/csrc/selective_scan/selective_scan.h",
+      "source_sha256": "fd82ff6ac520cc250ecae5fc01a948a7cba33e977dce2a6822064664759511a1",
+      "note": "",
+      "release_sha256": "fd82ff6ac520cc250ecae5fc01a948a7cba33e977dce2a6822064664759511a1",
+      "modified": false
+    },
+    {
+      "source": "mamba/csrc/selective_scan/selective_scan_bwd_bf16_complex.cu",
+      "destination": "mamba/csrc/selective_scan/selective_scan_bwd_bf16_complex.cu",
+      "source_sha256": "d3191c1308b455c4576938a656b26a9434bb35e06746077de0dcad262d92a6c9",
+      "note": "",
+      "release_sha256": "d3191c1308b455c4576938a656b26a9434bb35e06746077de0dcad262d92a6c9",
+      "modified": false
+    },
+    {
+      "source": "mamba/csrc/selective_scan/selective_scan_bwd_bf16_real.cu",
+      "destination": "mamba/csrc/selective_scan/selective_scan_bwd_bf16_real.cu",
+      "source_sha256": "6c7c3d8fc74d46103f4cc05d273437f451945db5e92f0aba6c25dd7e8a4a59d1",
+      "note": "",
+      "release_sha256": "6c7c3d8fc74d46103f4cc05d273437f451945db5e92f0aba6c25dd7e8a4a59d1",
+      "modified": false
+    },
+    {
+      "source": "mamba/csrc/selective_scan/selective_scan_bwd_fp16_complex.cu",
+      "destination": "mamba/csrc/selective_scan/selective_scan_bwd_fp16_complex.cu",
+      "source_sha256": "cf749e40690f9c2131cfe9b23ac42da4446bc747e6fd8f1aed45124d2cd5b74b",
+      "note": "",
+      "release_sha256": "cf749e40690f9c2131cfe9b23ac42da4446bc747e6fd8f1aed45124d2cd5b74b",
+      "modified": false
+    },
+    {
+      "source": "mamba/csrc/selective_scan/selective_scan_bwd_fp16_real.cu",
+      "destination": "mamba/csrc/selective_scan/selective_scan_bwd_fp16_real.cu",
+      "source_sha256": "ce5a8f9bb9e485be8ca70fec63b084f908598f6a1cdd47d754290f2057ee2f61",
+      "note": "",
+      "release_sha256": "ce5a8f9bb9e485be8ca70fec63b084f908598f6a1cdd47d754290f2057ee2f61",
+      "modified": false
+    },
+    {
+      "source": "mamba/csrc/selective_scan/selective_scan_bwd_fp32_complex.cu",
+      "destination": "mamba/csrc/selective_scan/selective_scan_bwd_fp32_complex.cu",
+      "source_sha256": "9462ad461cde1bded09a0ef236ae4b070ccb7aadae61e27b78a3dc6e1a5a033d",
+      "note": "",
+      "release_sha256": "9462ad461cde1bded09a0ef236ae4b070ccb7aadae61e27b78a3dc6e1a5a033d",
+      "modified": false
+    },
+    {
+      "source": "mamba/csrc/selective_scan/selective_scan_bwd_fp32_real.cu",
+      "destination": "mamba/csrc/selective_scan/selective_scan_bwd_fp32_real.cu",
+      "source_sha256": "142e266e024f53f41c65f8f114fbc21b1d873a262a2e9743f9965ba069eda4e9",
+      "note": "",
+      "release_sha256": "142e266e024f53f41c65f8f114fbc21b1d873a262a2e9743f9965ba069eda4e9",
+      "modified": false
+    },
+    {
+      "source": "mamba/csrc/selective_scan/selective_scan_bwd_kernel.cuh",
+      "destination": "mamba/csrc/selective_scan/selective_scan_bwd_kernel.cuh",
+      "source_sha256": "702ee19f5e84fe84179d59ad4a4ed618c89b66deb07a9e801b0c62113f9e124a",
+      "note": "",
+      "release_sha256": "702ee19f5e84fe84179d59ad4a4ed618c89b66deb07a9e801b0c62113f9e124a",
+      "modified": false
+    },
+    {
+      "source": "mamba/csrc/selective_scan/selective_scan_common.h",
+      "destination": "mamba/csrc/selective_scan/selective_scan_common.h",
+      "source_sha256": "8e2aea6743bde40e1b19ceda14093e05b18f1fb03ecf8c898943832bd0cc27f2",
+      "note": "",
+      "release_sha256": "8e2aea6743bde40e1b19ceda14093e05b18f1fb03ecf8c898943832bd0cc27f2",
+      "modified": false
+    },
+    {
+      "source": "mamba/csrc/selective_scan/selective_scan_fwd_bf16.cu",
+      "destination": "mamba/csrc/selective_scan/selective_scan_fwd_bf16.cu",
+      "source_sha256": "a3b0256715f39866274d9c9ef7e9791d2b22c71a5efd451c384ad8211ad2d7b6",
+      "note": "",
+      "release_sha256": "a3b0256715f39866274d9c9ef7e9791d2b22c71a5efd451c384ad8211ad2d7b6",
+      "modified": false
+    },
+    {
+      "source": "mamba/csrc/selective_scan/selective_scan_fwd_fp16.cu",
+      "destination": "mamba/csrc/selective_scan/selective_scan_fwd_fp16.cu",
+      "source_sha256": "f5b32ea6a10c755032e469754adbfbb554fab562eede31d33d99f746f5991a8c",
+      "note": "",
+      "release_sha256": "f5b32ea6a10c755032e469754adbfbb554fab562eede31d33d99f746f5991a8c",
+      "modified": false
+    },
+    {
+      "source": "mamba/csrc/selective_scan/selective_scan_fwd_fp32.cu",
+      "destination": "mamba/csrc/selective_scan/selective_scan_fwd_fp32.cu",
+      "source_sha256": "2ae10cb46816a25caa9711fd8b0aa9252763cda46f7f1765c11ca29bf57944b1",
+      "note": "",
+      "release_sha256": "2ae10cb46816a25caa9711fd8b0aa9252763cda46f7f1765c11ca29bf57944b1",
+      "modified": false
+    },
+    {
+      "source": "mamba/csrc/selective_scan/selective_scan_fwd_kernel.cuh",
+      "destination": "mamba/csrc/selective_scan/selective_scan_fwd_kernel.cuh",
+      "source_sha256": "41a27bb414894e7959bf6cc7f5ef0595aa613af6585c412114af2165d30bcb71",
+      "note": "",
+      "release_sha256": "41a27bb414894e7959bf6cc7f5ef0595aa613af6585c412114af2165d30bcb71",
+      "modified": false
+    },
+    {
+      "source": "mamba/csrc/selective_scan/static_switch.h",
+      "destination": "mamba/csrc/selective_scan/static_switch.h",
+      "source_sha256": "1eb3ebf9f2f231be1bfad83ad15612031e24980336c0019f2d742bce599f704c",
+      "note": "",
+      "release_sha256": "1eb3ebf9f2f231be1bfad83ad15612031e24980336c0019f2d742bce599f704c",
+      "modified": false
+    },
+    {
+      "source": "mamba/csrc/selective_scan/uninitialized_copy.cuh",
+      "destination": "mamba/csrc/selective_scan/uninitialized_copy.cuh",
+      "source_sha256": "80d81db2fe2c47d0e89b9b29643fda533ed065d2157d9a1c6a41a1078c057de6",
+      "note": "",
+      "release_sha256": "80d81db2fe2c47d0e89b9b29643fda533ed065d2157d9a1c6a41a1078c057de6",
+      "modified": false
+    },
+    {
+      "source": "causal-conv1d/setup.py",
+      "destination": "causal-conv1d/setup.py",
+      "source_sha256": "1cfc9309c37c16aa493ec1012086f9f1a5db9f471b8ac56b692816b791a31939",
+      "note": "",
+      "release_sha256": "21fabcb21790d0e64fbd9e7f16a9d864ca59dfcb423545bc6fc3b5b1ad0f88ff",
+      "modified": true
+    },
+    {
+      "source": "causal-conv1d/LICENSE",
+      "destination": "causal-conv1d/LICENSE",
+      "source_sha256": "8c9ccb96c065e706135b6cbad279b721da6156e51f3a5f27c6b3329af9416d73",
+      "note": "",
+      "release_sha256": "8c9ccb96c065e706135b6cbad279b721da6156e51f3a5f27c6b3329af9416d73",
+      "modified": false
+    },
+    {
+      "source": "causal-conv1d/AUTHORS",
+      "destination": "causal-conv1d/AUTHORS",
+      "source_sha256": "0dd3fdb00754168d9789b946e325655491bc209faf8cb68c7f9dded33f82a775",
+      "note": "",
+      "release_sha256": "0dd3fdb00754168d9789b946e325655491bc209faf8cb68c7f9dded33f82a775",
+      "modified": false
+    },
+    {
+      "source": "causal-conv1d/README.md",
+      "destination": "causal-conv1d/README.md",
+      "source_sha256": "55edf58ceea596a3a57a6389e87d60e954490e03b7f54cdaa51ae96244924772",
+      "note": "",
+      "release_sha256": "55edf58ceea596a3a57a6389e87d60e954490e03b7f54cdaa51ae96244924772",
+      "modified": false
+    },
+    {
+      "source": "causal-conv1d/causal_conv1d/__init__.py",
+      "destination": "causal-conv1d/causal_conv1d/__init__.py",
+      "source_sha256": "d34110b725cfef728ef7ebac38b143434d7863a66125b0543a18c5f0c818e615",
+      "note": "",
+      "release_sha256": "d34110b725cfef728ef7ebac38b143434d7863a66125b0543a18c5f0c818e615",
+      "modified": false
+    },
+    {
+      "source": "causal-conv1d/causal_conv1d/causal_conv1d_interface.py",
+      "destination": "causal-conv1d/causal_conv1d/causal_conv1d_interface.py",
+      "source_sha256": "38066dac73e6fc2fed284630afc3b4400af3cb9ffb9d002a72a7eab4612d6d84",
+      "note": "",
+      "release_sha256": "38066dac73e6fc2fed284630afc3b4400af3cb9ffb9d002a72a7eab4612d6d84",
+      "modified": false
+    },
+    {
+      "source": "causal-conv1d/csrc/causal_conv1d.cpp",
+      "destination": "causal-conv1d/csrc/causal_conv1d.cpp",
+      "source_sha256": "eb829e1c89f52b6bae56b9b1a28b61acedfddfd303ab60b09a404b7de47bfce1",
+      "note": "",
+      "release_sha256": "eb829e1c89f52b6bae56b9b1a28b61acedfddfd303ab60b09a404b7de47bfce1",
+      "modified": false
+    },
+    {
+      "source": "causal-conv1d/csrc/causal_conv1d.h",
+      "destination": "causal-conv1d/csrc/causal_conv1d.h",
+      "source_sha256": "eaf133af3ee2133c7458c86a1071864880d40901902b72cccd86b5621dbb43fc",
+      "note": "",
+      "release_sha256": "eaf133af3ee2133c7458c86a1071864880d40901902b72cccd86b5621dbb43fc",
+      "modified": false
+    },
+    {
+      "source": "causal-conv1d/csrc/causal_conv1d_bwd.cu",
+      "destination": "causal-conv1d/csrc/causal_conv1d_bwd.cu",
+      "source_sha256": "44ccd1c24822869997b7042618ae27ad609ec864ccd12513a467fffd9a1569af",
+      "note": "",
+      "release_sha256": "44ccd1c24822869997b7042618ae27ad609ec864ccd12513a467fffd9a1569af",
+      "modified": false
+    },
+    {
+      "source": "causal-conv1d/csrc/causal_conv1d_common.h",
+      "destination": "causal-conv1d/csrc/causal_conv1d_common.h",
+      "source_sha256": "ebccffb68c42b657a68d015cba8f89d410645289f5673cd6e51514158129292f",
+      "note": "",
+      "release_sha256": "ebccffb68c42b657a68d015cba8f89d410645289f5673cd6e51514158129292f",
+      "modified": false
+    },
+    {
+      "source": "causal-conv1d/csrc/causal_conv1d_fwd.cu",
+      "destination": "causal-conv1d/csrc/causal_conv1d_fwd.cu",
+      "source_sha256": "c80317b9b1877a48217e0fc979338ab557578537d07b68c7c16c42d11d5448b2",
+      "note": "",
+      "release_sha256": "c80317b9b1877a48217e0fc979338ab557578537d07b68c7c16c42d11d5448b2",
+      "modified": false
+    },
+    {
+      "source": "causal-conv1d/csrc/causal_conv1d_update.cu",
+      "destination": "causal-conv1d/csrc/causal_conv1d_update.cu",
+      "source_sha256": "16bb4349b4ad64cfd68ab2084565f364502d5ace065c169e0bba3f013a04999f",
+      "note": "",
+      "release_sha256": "16bb4349b4ad64cfd68ab2084565f364502d5ace065c169e0bba3f013a04999f",
+      "modified": false
+    },
+    {
+      "source": "causal-conv1d/csrc/static_switch.h",
+      "destination": "causal-conv1d/csrc/static_switch.h",
+      "source_sha256": "9e587f9083d153fbe426476269ea9cf4471233bf3bcba28519d11248c7a52104",
+      "note": "",
+      "release_sha256": "9e587f9083d153fbe426476269ea9cf4471233bf3bcba28519d11248c7a52104",
+      "modified": false
+    }
+  ],
+  "release_added_files": [
+    {
+      "destination": "README.md",
+      "release_sha256": "a3f8aa6c1874301b13627b3381bccbb0d525e488e2fba15859b8f850ed1272e9"
+    },
+    {
+      "destination": "evaluate.py",
+      "release_sha256": "8d014e3e8ce017ea1afd36e8c6056feee23656381f746c5744f79b0a1709634c"
+    },
+    {
+      "destination": "inference.py",
+      "release_sha256": "d5adbe3ceacce8b3f8d489a859943aaeaff57081ed8e851bfcaa512c636977f2"
+    },
+    {
+      "destination": "mamba/__init__.py",
+      "release_sha256": "30ed819ca612bd503a707f6fe917ed514f0852469581f1e736bc813400f4757b"
+    },
+    {
+      "destination": "predict.py",
+      "release_sha256": "321aec2625710b504492df83868d9a1b65b1c2cb62b2e187de03bd7885a17773"
+    },
+    {
+      "destination": "requirements.txt",
+      "release_sha256": "87789822359dd92fa145131c6fc6ac980319c9327efab241d9b62cc1f75f27ef"
+    },
+    {
+      "destination": "scripts/check_environment.py",
+      "release_sha256": "72199f64ab77a63f0e993696ac327cc34ce84b5a7f809febe0c5565a2b271123"
+    },
+    {
+      "destination": "scripts/check_protocol.py",
+      "release_sha256": "274ff8fd30835a58a72be7eb8a642a379bddbacef65206a34c0427ba23d4c27e"
+    },
+    {
+      "destination": "scripts/check_standalone.py",
+      "release_sha256": "e9c387495753453e3ee5c2d369cdb9b126feaec783cda615132e35cb2c200392"
+    },
+    {
+      "destination": "scripts/install_extensions.sh",
+      "release_sha256": "f0efbb0a2f9ca6cad3d0a37243d5bdfafb483b65a14d8ae51594fd1eeef80b32"
+    },
+    {
+      "destination": "causal-conv1d/MANIFEST.in",
+      "release_sha256": "818679c0be362223bbb2b20c093a2d5416f4b0474b4fe81ef3cdafce37cf67c9"
+    },
+    {
+      "destination": "mamba/MANIFEST.in",
+      "release_sha256": "818679c0be362223bbb2b20c093a2d5416f4b0474b4fe81ef3cdafce37cf67c9"
+    }
+  ]
+}

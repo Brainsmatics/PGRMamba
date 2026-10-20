@@ -1,0 +1,2 @@
+include LICENSE AUTHORS README.md
+recursive-include csrc *.cpp *.cu *.cuh *.h
